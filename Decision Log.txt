@@ -1,3 +1,7 @@
 Most Difficult Decision
 
-The most challenging decision in this task was choosing how to measure image sharpness reliably. Using a single metric such as Laplacian variance can fail in noisy frames, while gradient-based methods alone may favor high-contrast noise. To address this, a weighted combination of Tenengrad and Laplacian variance was chosen to balance edge strength and overall detail. Another important decision was enforcing temporal diversity by selecting only one frame per second, ensuring that the final output represents different moments in the video rather than nearly identical frames.
+The most challenging decision in this task was choosing how to measure image sharpness reliably.
+Using a single metric such as Laplacian variance can fail in noisy frames, while gradient-based methods alone may favor high-contrast noise.
+To address this, a weighted combination of Tenengrad and Laplacian variance was chosen to balance edge strength and overall detail.
+Another important decision was enforcing temporal diversity by selecting only one frame per second,
+ensuring that the final output represents different moments in the video rather than nearly identical frames.
